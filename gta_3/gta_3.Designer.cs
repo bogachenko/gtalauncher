@@ -28,24 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gta_3));
+            this.lu = new System.Windows.Forms.Button();
+            this.gta_iii = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // lu
+            // 
+            resources.ApplyResources(this.lu, "lu");
+            this.lu.Name = "lu";
+            this.lu.UseVisualStyleBackColor = true;
+            this.lu.Click += new System.EventHandler(this.click_lu);
+            // 
+            // gta_iii
+            // 
+            resources.ApplyResources(this.gta_iii, "gta_iii");
+            this.gta_iii.Name = "gta_iii";
+            this.gta_iii.UseVisualStyleBackColor = true;
+            this.gta_iii.Click += new System.EventHandler(this.click_gta_3);
             // 
             // gta_3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 111);
+            this.Controls.Add(this.gta_iii);
+            this.Controls.Add(this.lu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "gta_3";
             this.ShowIcon = false;
-            this.Text = "Launcher for Grand Theft Auto III";
             this.Load += new System.EventHandler(this.gta_3_load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button lu;
+        private System.Windows.Forms.Button gta_iii;
     }
 }
 
