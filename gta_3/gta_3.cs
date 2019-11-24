@@ -18,7 +18,7 @@ namespace gta_3
                 else
                 {
                     MessageBox.Show(
-                     "I can not find the gta3.exe file," +
+                     "I can not find the \"gta3.exe\" file," +
                      "check its availability and try again", "File not found",
                      MessageBoxButtons.OK);
                     Close();
@@ -36,7 +36,7 @@ namespace gta_3
             {
                 DialogResult result = MessageBox.Show(
                  "It looks like you do not have Liberty Unleashed installed," +
-                 "click \"Yes\" to go to the developer's website.", "Warning",
+                 "click \"Yes\" to go to the developer's website or click on \"No\" to exit the launcher.", "Warning",
                  MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (result == DialogResult.Yes)
                 {
