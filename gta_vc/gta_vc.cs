@@ -8,10 +8,12 @@ namespace gta_vc
     {
         public gta_vc()
         {
+            TopMost = true;
+            this.StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
         }
 
-        private void gta_vc_Click(object sender, EventArgs e)
+        private void gta_vc_click(object sender, EventArgs e)
         {
             {
                 if (File.Exists("gta_vc.exe"))
@@ -27,7 +29,7 @@ namespace gta_vc
                 }
             }
         }
-        private void vcmp_Click(object sender, EventArgs e)
+        private void vcmp_click(object sender, EventArgs e)
         {
             if (File.Exists("VCMPBrowser.exe"))
             {
@@ -49,5 +51,6 @@ namespace gta_vc
             }
         }
         private void gta_vc_load(object sender, EventArgs e) { }
+
     }
 }
