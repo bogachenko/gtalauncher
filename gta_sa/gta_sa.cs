@@ -8,18 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace gta_sa
-{
-    public partial class gta_sa : Form
-    {
-        public gta_sa()
-        {
-            InitializeComponent();
-        }
+namespace gta_sa {
+ public partial class gta_sa: Form {
+  public gta_sa() {
+   InitializeComponent();
+  }
 
-        private void gta_sa_load(object sender, EventArgs e)
-        {
+  private void gta_sa_load(object sender, EventArgs e) {
 
-        }
-    }
+  }
+ }
 }
