@@ -15,9 +15,11 @@ namespace gta_sa {
    resources.ApplyResources(this.gtasa, "gtasa");
    this.gtasa.Name = "gtasa";
    this.gtasa.UseVisualStyleBackColor = true;
+   this.gtasa.Click += new System.EventHandler(this.Gta_sa_click);
    resources.ApplyResources(this.samp, "samp");
    this.samp.Name = "samp";
    this.samp.UseVisualStyleBackColor = true;
+   this.samp.Click += new System.EventHandler(this.Samp_click);
    resources.ApplyResources(this, "$this");
    this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
    this.Controls.Add(this.samp);
@@ -26,7 +28,7 @@ namespace gta_sa {
    this.MaximizeBox = false;
    this.MinimizeBox = false;
    this.Name = "gta_sa";
-   this.Load += new System.EventHandler(this.gta_sa_load);
+   this.Load += new System.EventHandler(this.Gta_sa_load);
    this.ResumeLayout(false);
   }
   private System.Windows.Forms.Button gtasa;

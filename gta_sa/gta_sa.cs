@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,7 +40,8 @@ namespace gta_sa {
      Close(); {}
    }
   }
-  private void gta_sa_load(object sender, EventArgs e) {
+
+  private void Gta_sa_load(object sender, EventArgs e) {
 
   }
  }
