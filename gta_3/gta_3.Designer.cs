@@ -20,8 +20,8 @@ namespace gta_3 {
    this.lu.Name = "lu";
    this.lu.UseVisualStyleBackColor = true;
    this.lu.Click += new System.EventHandler(this.Click_lu);
-   this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
    resources.ApplyResources(this, "$this");
+   this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
    this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
    this.Controls.Add(this.lu);
    this.Controls.Add(this.gta3);
@@ -32,7 +32,6 @@ namespace gta_3 {
    this.ShowIcon = false;
    this.Load += new System.EventHandler(this.Gta_3_load);
    this.ResumeLayout(false);
-
   }
   private System.Windows.Forms.Button gta3;
   private System.Windows.Forms.Button lu;
