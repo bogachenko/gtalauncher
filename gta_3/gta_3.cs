@@ -2,11 +2,9 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
-namespace gta_3
-{
+namespace gta_3 {
  public partial class gta_3: Form {
-        public gta_3()
-        {
+  public gta_3() {
    TopMost = true;
    this.StartPosition = FormStartPosition.CenterScreen;
    InitializeComponent();
