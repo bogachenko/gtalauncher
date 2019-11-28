@@ -20,8 +20,8 @@ namespace gta_3 {
    this.gta_iii.Name = "gta_iii";
    this.gta_iii.UseVisualStyleBackColor = true;
    this.gta_iii.Click += new System.EventHandler(this.click_gta_3);
-   resources.ApplyResources(this, "$this");
    this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+   resources.ApplyResources(this, "$this");
    this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
    this.Controls.Add(this.gta_iii);
    this.Controls.Add(this.lu);
