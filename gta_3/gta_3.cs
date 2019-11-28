@@ -2,14 +2,16 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
-namespace gta_3 {
+namespace gta_3
+{
  public partial class gta_3: Form {
-  public gta_3() {
+        public gta_3()
+        {
    TopMost = true;
    this.StartPosition = FormStartPosition.CenterScreen;
    InitializeComponent();
   }
-  private void click_gta_3(object sender, EventArgs e) {
+  private void Click_gta_3(object sender, EventArgs e) {
    {
     if (File.Exists("gta_3.exe")) {
      Process.Start("gta_3.exe");
@@ -20,7 +22,7 @@ namespace gta_3 {
     }
    }
   }
-  private void click_lu(object sender, EventArgs e) {
+  private void Click_lu(object sender, EventArgs e) {
    if (File.Exists("LU.exe")) {
     Process.Start("LU.exe");
     Close();
@@ -32,6 +34,6 @@ namespace gta_3 {
      Close(); {}
    }
   }
-  private void gta_3_load(object sender, EventArgs e) {}
+  private void Gta_3_load(object sender, EventArgs e) {}
  }
 }
