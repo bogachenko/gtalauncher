@@ -61,4 +61,78 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
+	<metadata name="gtavc.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+		<value>True</value>
+	</metadata>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<data name="gtavc.Location" type="System.Drawing.Point, System.Drawing">
+		<value>12, 12</value>
+	</data>
+	<data name="gtavc.Size" type="System.Drawing.Size, System.Drawing">
+		<value>460, 40</value>
+	</data>
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<data name="gtavc.TabIndex" type="System.Int32, mscorlib">
+		<value>0</value>
+	</data>
+	<data name="gtavc.Text" xml:space="preserve">
+		<value>Grand Theft Auto Vice City</value>
+	</data>
+	<data name="&gt;&gt;gtavc.Name" xml:space="preserve">
+		<value>gtavc</value>
+	</data>
+	<data name="&gt;&gt;gtavc.Type" xml:space="preserve">
+		<value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</data>
+	<data name="&gt;&gt;gtavc.Parent" xml:space="preserve">
+		<value>$this</value>
+	</data>
+	<data name="&gt;&gt;gtavc.ZOrder" xml:space="preserve">
+		<value>1</value>
+	</data>
+	<metadata name="vcmp.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+		<value>True</value>
+	</metadata>
+	<data name="vcmp.Location" type="System.Drawing.Point, System.Drawing">
+		<value>12, 59</value>
+	</data>
+	<data name="vcmp.Size" type="System.Drawing.Size, System.Drawing">
+		<value>460, 40</value>
+	</data>
+	<data name="vcmp.TabIndex" type="System.Int32, mscorlib">
+		<value>1</value>
+	</data>
+	<data name="vcmp.Text" xml:space="preserve">
+		<value>VC-MP</value>
+	</data>
+	<data name="&gt;&gt;vcmp.Name" xml:space="preserve">
+		<value>vcmp</value>
+	</data>
+	<data name="&gt;&gt;vcmp.Type" xml:space="preserve">
+		<value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</data>
+	<data name="&gt;&gt;vcmp.Parent" xml:space="preserve">
+		<value>$this</value>
+	</data>
+	<data name="&gt;&gt;vcmp.ZOrder" xml:space="preserve">
+		<value>0</value>
+	</data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+		<value>True</value>
+	</metadata>
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+		<value>6, 13</value>
+	</data>
+	<data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+		<value>484, 111</value>
+	</data>
+	<data name="$this.Text" xml:space="preserve">
+		<value>Launcher for Grand Theft Auto Vice City</value>
+	</data>
+	<data name="&gt;&gt;$this.Name" xml:space="preserve">
+		<value>gta_vc</value>
+	</data>
+	<data name="&gt;&gt;$this.Type" xml:space="preserve">
+		<value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</data>
 </root>
