@@ -1,4 +1,4 @@
-﻿namespace gta_sa {
+namespace gta_sa {
  partial class gta_sa {
   private System.ComponentModel.IContainer components = null;
   protected override void Dispose(bool disposing) {
