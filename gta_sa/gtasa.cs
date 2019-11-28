@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace gta_sa
 {
-    static class Program
+    static class gtasa
     {
         /// <summary>
         /// Главная точка входа для приложения.

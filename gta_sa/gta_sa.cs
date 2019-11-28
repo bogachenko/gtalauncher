@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace gta_sa
 {
-    public partial class Form1 : Form
+    public partial class gta_sa : Form
     {
-        public Form1()
+        public gta_sa()
         {
             InitializeComponent();
+        }
+
+        private void gta_sa_load(object sender, EventArgs e)
+        {
+
         }
     }
 }
