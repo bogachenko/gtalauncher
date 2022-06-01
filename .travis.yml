@@ -1,7 +1,0 @@
-language: csharp
-mono:
- - latest
-script:
- - xbuild /p:Configuration=Release gta_3/gta_3.sln
- - xbuild /p:Configuration=Release gta_vc/gta_vc.sln
- - xbuild /p:Configuration=Release gta_sa/gta_sa.sln
