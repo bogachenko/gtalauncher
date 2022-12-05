@@ -11,7 +11,6 @@ namespace gta_sa
         {
             InitializeComponent();
         }
-
         private void gtasa_click(object sender, EventArgs e)
         {
             if (File.Exists("gta_sa.exe")) {
@@ -25,7 +24,6 @@ namespace gta_sa
 
             }
         }
-
         private void gtasade_click(object sender, EventArgs e)
         {
             if (File.Exists("gta_sa_de.lnk"))
