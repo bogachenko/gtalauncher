@@ -25,5 +25,18 @@ namespace gta_vc {
                 Close();
             }
         }
+
+        private void gta_vc_load(object sender, EventArgs e) {
+            if (File.Exists("gta_vc_de.lnk")) {
+                gtavcde.Enabled = true;
+            } else {
+                gtavcde.Enabled = false;
+            }
+            if (File.Exists("gta-vc.exe")) {
+                gtavc.Enabled = true;
+            } else {
+                gtavc.Enabled = false;
+            }
+        }
     }
 }

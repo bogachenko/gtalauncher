@@ -29,6 +29,7 @@
             this.MinimizeBox = false;
             this.Name = "gta_vc";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.gta_vc_load);
             this.ResumeLayout(false);
         }
         private System.Windows.Forms.Button gtavc;
