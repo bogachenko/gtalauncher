@@ -65,8 +65,8 @@
 	<data name="&gt;&gt;gtasa.ZOrder" xml:space="preserve">
 		<value>1</value>
 	</data>
-	<data name="gtasade.Size" type="System.Drawing.Size, System.Drawing">
-		<value>460, 40</value>
+	<data name="&gt;&gt;gtasa.Type" xml:space="preserve">
+		<value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</data>
 	<data name="&gt;&gt;gtasa.Name" xml:space="preserve">
 		<value>gtasa</value>
@@ -74,8 +74,8 @@
 	<data name="&gt;&gt;gtasa.Parent" xml:space="preserve">
 		<value>$this</value>
 	</data>
-	<data name="&gt;&gt;gtasa.Type" xml:space="preserve">
-		<value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	<data name="gtasade.Size" type="System.Drawing.Size, System.Drawing">
+		<value>460, 40</value>
 	</data>
 	<data name="gtasade.Location" type="System.Drawing.Point, System.Drawing">
 		<value>12, 59</value>

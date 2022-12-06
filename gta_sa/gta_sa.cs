@@ -25,5 +25,17 @@ namespace gta_sa {
                 Close();
             }
         }
+        private void gta_sa_load(object sender, EventArgs e) {
+            if (File.Exists("gta_sa_de.lnk")) {
+                gtasade.Enabled = true;
+            } else {
+                gtasade.Enabled = false;
+            }
+            if (File.Exists("gta-sa.exe")) {
+                gtasa.Enabled = true;
+            } else {
+                gtasa.Enabled = false;
+            }
+        }
     }
 }

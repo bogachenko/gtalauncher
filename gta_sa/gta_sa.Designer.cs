@@ -29,6 +29,7 @@ namespace gta_sa {
             this.MinimizeBox = false;
             this.Name = "gta_sa";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.gta_sa_load);
             this.ResumeLayout(false);
         }
         private System.Windows.Forms.Button gtasa;

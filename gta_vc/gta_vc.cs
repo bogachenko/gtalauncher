@@ -25,7 +25,6 @@ namespace gta_vc {
                 Close();
             }
         }
-
         private void gta_vc_load(object sender, EventArgs e) {
             if (File.Exists("gta_vc_de.lnk")) {
                 gtavcde.Enabled = true;
