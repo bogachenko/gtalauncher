@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Simply launcher for Grand Theft Auto: San Andreas")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("gta-sa")]
+[assembly: AssemblyProduct("gta-sa.exe")]
 [assembly: AssemblyCopyright("Copyright © Bogachenko Vyacheslav")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

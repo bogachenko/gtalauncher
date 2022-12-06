@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Simply launcher for Grand Theft Auto: 3")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("gta_3")]
+[assembly: AssemblyProduct("gta3.exe")]
 [assembly: AssemblyCopyright("Copyright © Bogachenko Vyacheslav")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

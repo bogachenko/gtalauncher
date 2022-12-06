@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Simply launcher for Grand Theft Auto: Vice City")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("gta_vc")]
+[assembly: AssemblyProduct("gta-vc.exe")]
 [assembly: AssemblyCopyright("Copyright © Bogachenko Vyacheslav")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
