@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
+using System.IO;
 using System.Windows.Forms;
 
 namespace gta_vc
@@ -19,12 +14,30 @@ namespace gta_vc
 
         private void gtavc_click(object sender, EventArgs e)
         {
-
+            if (File.Exists("gta-vc.exe"))
+            {
+                Process.Start("gta-vc.exe");
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("I can not find the gta-vc.exe file, check its availability and try again.", "File not found", MessageBoxButtons.OK);
+                Close();
+            }
         }
 
         private void gtavcde_click(object sender, EventArgs e)
         {
-
+            if (File.Exists("gta_vc_de.lnk"))
+            {
+                Process.Start("gta_vc_de.lnk");
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("I can not find the gta_vc_de.lnk file, check its availability and try again.", "File not found", MessageBoxButtons.OK);
+                Close();
+            }
         }
     }
 }

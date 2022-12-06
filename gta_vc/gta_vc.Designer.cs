@@ -35,40 +35,29 @@
             // 
             // gtavc
             // 
-            this.gtavc.Location = new System.Drawing.Point(12, 12);
+            resources.ApplyResources(this.gtavc, "gtavc");
             this.gtavc.Name = "gtavc";
-            this.gtavc.Size = new System.Drawing.Size(460, 40);
-            this.gtavc.TabIndex = 0;
-            this.gtavc.Text = "Grand Theft Auto: Vice City";
             this.gtavc.UseVisualStyleBackColor = true;
             this.gtavc.Click += new System.EventHandler(this.gtavc_click);
             // 
             // gtavcde
             // 
-            this.gtavcde.Location = new System.Drawing.Point(12, 59);
+            resources.ApplyResources(this.gtavcde, "gtavcde");
             this.gtavcde.Name = "gtavcde";
-            this.gtavcde.Size = new System.Drawing.Size(460, 40);
-            this.gtavcde.TabIndex = 1;
-            this.gtavcde.Text = "Grand Theft Auto: Vice City – The Definitive Edition";
             this.gtavcde.UseVisualStyleBackColor = true;
             this.gtavcde.Click += new System.EventHandler(this.gtavcde_click);
             // 
             // gta_vc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 111);
             this.Controls.Add(this.gtavcde);
             this.Controls.Add(this.gtavc);
-            this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "gta_vc";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Launcher for the Grand Theft Auto: Vice City";
             this.ResumeLayout(false);
 
         }

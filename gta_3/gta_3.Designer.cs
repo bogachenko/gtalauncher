@@ -7,7 +7,6 @@ namespace gta_3 {
             }
             base.Dispose(disposing);
         }
-        #region
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gta_3));
             this.gta3 = new System.Windows.Forms.Button();
@@ -31,9 +30,7 @@ namespace gta_3 {
             this.Name = "gta_3";
             this.ShowIcon = false;
             this.ResumeLayout(false);
-
         }
-        #endregion
         private System.Windows.Forms.Button gta3;
         private System.Windows.Forms.Button gta3de;
     }
