@@ -1,19 +1,14 @@
-namespace gta_3
-{
-    partial class gta_3
-    {
+namespace gta_3 {
+    partial class gta_3 {
         private System.ComponentModel.IContainer components = null;
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
         }
         #region
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources =
                 new System.ComponentModel.ComponentResourceManager(typeof(gta_3));
             this.gta3 = new System.Windows.Forms.Button();
