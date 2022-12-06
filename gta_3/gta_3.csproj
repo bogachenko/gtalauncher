@@ -57,6 +57,9 @@
     </Compile>
     <Compile Include="gta3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="gta_3.en-US.resx">
+      <DependentUpon>gta_3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gta_3.resx">
       <DependentUpon>gta_3.cs</DependentUpon>
     </EmbeddedResource>
