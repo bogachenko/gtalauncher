@@ -1,18 +1,13 @@
-namespace gta_sa
-{
-    partial class gta_sa
-    {
+namespace gta_sa {
+    partial class gta_sa {
         private System.ComponentModel.IContainer components = null;
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
         }
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources =
                 new System.ComponentModel.ComponentResourceManager(typeof(gta_sa));
             this.gtasa = new System.Windows.Forms.Button();
@@ -37,13 +32,7 @@ namespace gta_sa
             this.ClientSize = new System.Drawing.Size(484, 111);
             this.Controls.Add(this.gtasade);
             this.Controls.Add(this.gtasa);
-            this.Font = new System.Drawing.Font(
-                "Arial",
-                8.25F,
-                System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point,
-                ((byte)(0))
-            );
+            this.Font = new System.Drawing.Font("Arial",8.25F,System.Drawing.FontStyle.Regular,System.Drawing.GraphicsUnit.Point,((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
