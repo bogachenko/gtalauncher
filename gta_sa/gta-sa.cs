@@ -14,7 +14,6 @@ namespace gta_sa {
       } else {
         MessageBox.Show("I can not find the gta_sa.exe file," + "check its availability and try again.", "File not found", MessageBoxButtons.OK);
         Close();
-
       }
     }
     private void gtasade_click(object sender, EventArgs e) {
@@ -24,7 +23,6 @@ namespace gta_sa {
       } else {
         MessageBox.Show("I can not find the gta_sa_de.lnk file," + "check its availability and try again.", "File not found", MessageBoxButtons.OK);
         Close();
-
       }
     }
   }
