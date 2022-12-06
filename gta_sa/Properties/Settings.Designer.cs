@@ -12,7 +12,6 @@ namespace gta_sa.Properties
                 global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())
             )
         );
-
         public static Settings Default
         {
             get { return defaultInstance; }
