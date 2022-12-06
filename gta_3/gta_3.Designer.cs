@@ -29,6 +29,7 @@ namespace gta_3 {
             this.MinimizeBox = false;
             this.Name = "gta_3";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.gta_3_load);
             this.ResumeLayout(false);
         }
         private System.Windows.Forms.Button gta3;

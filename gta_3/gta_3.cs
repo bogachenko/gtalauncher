@@ -25,5 +25,17 @@ namespace gta_3 {
                 Close();
             }
         }
+        private void gta_3_load(object sender, EventArgs e) {
+            if (File.Exists("gta_3_de.lnk")) {
+                gta3de.Enabled = true;
+            } else {
+                gta3de.Enabled = false;
+            }
+            if (File.Exists("gta3.exe")) {
+                gta3.Enabled = true;
+            } else {
+                gta3.Enabled = false;
+            }
+        }
     }
 }
