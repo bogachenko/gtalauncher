@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gta-sa", "gta-sa.csproj", "{DCB76C43-59C5-4892-A03D-89EA4F5C326D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gta_sa", "gta_sa.csproj", "{DCB76C43-59C5-4892-A03D-89EA4F5C326D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
