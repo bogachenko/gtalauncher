@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gta_3", "gta_3.csproj", "{9D4A0BBD-4F16-45D8-87AB-B935E1BE0656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D4A0BBD-4F16-45D8-87AB-B935E1BE0656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4A0BBD-4F16-45D8-87AB-B935E1BE0656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4A0BBD-4F16-45D8-87AB-B935E1BE0656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4A0BBD-4F16-45D8-87AB-B935E1BE0656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31175C1A-533C-4484-A824-0AEC843DB106}
+	EndGlobalSection
+EndGlobal
